@@ -1,0 +1,182 @@
+@import url('../utitlities/rest.css');
+@import url('../utitlities/variable.css');
+@import url('../Components/buttons.css');
+:root {
+    --_fs-b: 26px;
+}
+.toggle {
+    display: block;
+    z-index: 999;
+}
+/* Fix the navBar top */
+.fix-nav {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+.primary-nav-header {
+    background-color: var(--clr-dark-red);
+    height: fit-content;
+    z-index: 4;
+}
+.over-lay-bg-clr {
+    background-color:  #861306c7;
+}
+.primary-nav-header-wrapper {
+    display: grid;
+    grid-template-rows: 6rem 1fr;
+}
+.full-height {
+    height: 100vh;
+}
+.ovaley {
+    display: flex;
+    align-items: center;
+    padding-inline: var(--mobile-full-width-padding-inline);
+    justify-content: space-between;
+    width: 95%;
+    background-color: var(--clr-dark-red);
+    grid-column: 1 / 2;
+    z-index: 20;
+}
+.primary-nav {
+    /* Normal styling */
+    padding-top: 9rem;
+    gap: 1.2rem;
+    padding-inline: 1.5rem;
+    background-color: #000;
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    grid-column: 2 / -1;
+    bottom: 0;
+    display: none;
+    transform: translateY(-100em);
+
+}
+.main-links {
+    color: #fff;
+    font-size: var(--_fs-b);
+    font-weight: var(--_fs-b);
+    transition: color .3s;
+}
+.main-links:hover {
+    color: var( --clr-very-light-red );
+}
+.primary-nav > :is(button) {
+    display: block;
+    width: fit-content;
+}
+.primary-nav > :is(button:hover) {
+    background-color: var(--clr-very-light-red);
+}
+/* Animation */
+/* Animation start */
+@keyframes nav-open {
+    from {
+        transform: translateY(50em);       
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+@keyframes nav-close {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(80em);
+    }
+}
+.primary-nav.nav-open {
+    animation-name: nav-open;
+    animation-duration: 0.3s;
+    transform: translateY(0);
+    /* Added */
+    display: flex;
+    flex-direction: column;
+}
+.primary-nav.nav-close {
+    animation-name: nav-close;
+    animation-duration: 0.5s;
+    transform: translateY(60em);
+    transform: translateX(50em);
+}
+/* Animation End */
+/* Desktop Version */
+@media only screen and (min-width: 688px) {
+    /* Reset */
+    .toggle {
+        display: none;
+    }
+    /* Ovalay */
+    .primary-nav-header {
+        background-color: var(--clr-dark-red);
+        height: fit-content;
+    }
+    .over-lay-bg-clr {
+        background-color:  #861306c7;
+    }
+    .ovaley {
+        width: fit-content;
+        background-color: transparent;
+    }
+    .primary-nav-header-wrapper {
+        width: min(95%, 90rem);
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: 10rem 1fr;
+        grid-template-rows: 6rem;
+        /* box-shadow: 2px 0 10px #000; */
+    }
+    .primary-nav {
+        /* Rest mobile styling */
+        position: static;
+        padding-top: initial;
+        height: initial;
+        width: initial;
+        transform: translateY(0);
+        justify-self: end;
+
+        /* Normal styling */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        padding-inline: 1.5rem;
+        background-color: transparent;
+        z-index: 20;
+
+    }
+    .primary-nav > :is(button) {
+        display: none;
+        width: fit-content;
+    }
+    .main-links {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .primary-nav-header {
+        background-image: url('../../../images/Background/bg-wave.png');
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-size: 90.2%;
+    }
+    .primary-nav-header::after {
+        content: '';
+        position: fixed;
+        right: 0;
+        top: -2rem;
+        width: 100%;
+        /* border: 2px solid blue; */
+        height: 8rem;
+        background-color: #861306ce;
+        z-index: 5;
+    }
+
+
+}
+body {
+    position: relative;
+}

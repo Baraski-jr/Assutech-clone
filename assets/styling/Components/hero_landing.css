@@ -1,0 +1,69 @@
+@import url('../utitlities/variable.css');
+
+
+.full-width-split-sub-hero {
+    width: min(75%, 90rem);
+    margin-inline: auto;
+}
+/* BLOG PAGE */
+.sub-hero {
+    min-height: 30vh;
+    /* aspect-ratio: 16/9; */
+    background-image: url('../../../images/Background/WatooTijay.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    display: flex;
+    padding-top: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.study.sub-hero-primary-title {
+    font-size: clamp(25px, 3vw, 56px);
+}
+.sub-hero > .main-text-content {
+    gap: 1rem;
+}
+.sub-hero-primary-title {
+    color: var(--clr-white-100);
+    font-size: clamp(40px, 3vw, 56px);
+    font-weight: var(--fw-600);
+}
+.sub-hero-text {
+    line-height: 24px;
+    color: var(--clr-white-100);
+    font-size: clamp(16px, 2vw, 22px);
+    font-weight: var(--fw-600);
+}
+.sub-hero::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.226);
+    mix-blend-mode: color-burn;
+}
+/* END OF BLOG PAGE */
+
+/* TEAM PAGE */
+/* END OF TEAM PAGE */
+@media only screen and (min-width: 688px) {
+
+    /* BLOG PAGE */
+    .sub-hero {
+        min-height: 40vh;
+        /* aspect-ratio: 16/9; */
+        background-image: url('../../../images/Background/WatooTijay.jpeg');
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+        display: flex;
+        padding-top: 5rem;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+}

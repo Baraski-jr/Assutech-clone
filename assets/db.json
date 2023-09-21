@@ -1,0 +1,59 @@
+{
+    "Blogs": [
+        {
+        }
+    ],
+    "FeedBacks": [
+        {
+        }
+    ],
+    "TeamMembers": [
+        {
+
+            "name": "Hassan Y. Jallow",
+            "image": "images/Team-members/hassan.jpg",
+            "role": "CEO",
+            "degree": "",
+            "description": "If Passion were a person, It would be Hassan. He makes you want to do and be better at your craft just by being in the Room. When He isn't working, He’s checking things off on his “Ten things to explore” List which includes learning to fly planes. Did you know that Hassan has a 2nd degree black belt in taekwando? Taekwando gives him a sense of balance, Calm and most importantly teaches him discipline. Where most person learn to swim in a pool, He learnt at Sea 😉. Talk about making waves. Extraordinary stuff Right? That’s hassan for you." 
+        },
+        {
+            "name": "Saidy Barry",
+            "image": "images/Team-members/hassan.jpg",
+            "role": "SENIOR BACKEND ENGINEER",
+            "degree": "B.Tech in Computer Science and Engineering",
+            "description": "Abass considers himself the sous chef of the backend team and is an avid fan of the TV show "Suits." He takes great pride in his sense of style and fashion. In addition to that, Abass is currently recognized as our most skilled FIFA player. Challenging him to a game is not without risk, as he is known to be highly proficient. May luck be on your side if you decide to take on the challenge." 
+        },
+        {
+            "name": "",
+            "image": "images/Team-members/hassan.jpg",
+            "role": "MACHINE LEARNING & GROWTH LEAD",
+            "degree": "BSc. Mathematics",
+            "description": "Picture this: I'm all about teamwork and big-picture thinking. No micromanaging here – I trust your expertise. If things stray, count on me to navigate. I'll jump into details at the start and guide you if needed. Deadlines? I take 'em seriously. Data's my secret sauce, but I won't drown you in it. Challenge my gut feelings anytime. Customers' tales fuel me, especially on the go. Feedback's gold, and results are my jam. Laughter, ataya, books, and football, a must." 
+        },
+        {
+            "name": "",
+            "image": "images/Team-members/hassan.jpg",
+            "role": "",
+            "description": "" 
+        },
+        {
+            "name": "",
+            "image": "images/Team-members/hassan.jpg",
+            "role": "",
+            "description": "" 
+        },
+        {
+            "name": "",
+            "image": "images/Team-members/hassan.jpg",
+            "role": "",
+            "description": "" 
+        },
+        {
+            "name": "",
+            "image": "images/Team-members/hassan.jpg",
+            "role": "",
+            "description": "" 
+        }
+    ]
+    
+}

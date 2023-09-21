@@ -1,0 +1,367 @@
+@import url('assets/styling/Components/navBar.css');
+@import url('assets/styling/Components/footer.css');
+@import url('assets/styling/Components/cards.css');
+@import url('assets/styling/Components/buttons.css');
+@import url('assets/styling/utitlities/rest.css');
+@import url('assets/styling/utitlities/variable.css');
+@import url('assets/styling/Components/_section-head.css');
+@import url('assets/styling/Components/hero_landing.css');
+
+
+/* Common styling for both Custom & Client fedback wrapper */
+body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+    min-height: 90vh;
+}
+/* Landing- page */
+.primary-header {
+    background-color: var(--clr-dark-red);
+    position: relative;
+    min-height: 100vh;
+    padding-top: 2rem;
+}
+.full-width-split {
+    width: min(95%, 90rem);
+    margin-inline: auto;
+}
+.hero {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+}
+.main-text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    z-index: 2;
+}
+.hero .small-text {
+    color: var( --clr-white-100);
+    font-size: clamp(var(--fs-vs), 2.1vw, var(--fs-m));
+    font-weight: var(--fw-400);
+    line-height: 18px;
+}
+.primary-title {
+    color: var(--clr-white-100);
+    font-weight: var(--fw-700);
+    font-size: clamp(24px, 5vw, 64px);
+}
+.border-under-line {
+    --text-clr: #ffcdc8;
+    color: var(--text-clr);
+    border-bottom: 1px solid var(--clr-white-100);
+    padding-bottom: .3rem;
+}
+/* Client logo scroll */
+.pos-abs {
+    position: absolute;
+    bottom: -3.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* Costum solution */
+.costum-solution-wrapper {
+    padding: 12rem 3rem 10rem;
+}
+.tool-cards-grid-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    /* border: 3px solid red; */
+}
+/* End of Custom Solution we Provide */
+/* Recent Product */
+.recent-products-wrapper {
+    background-color: var(--_bg-clr-recent-product);
+    padding: 5rem var(--mobile-full-width-padding-inline);
+    min-height: 70vh;
+}
+.recent-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 3rem;
+}
+.main-text-component {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.client-text {
+    --_line-height: 28px;
+    line-height: var(--_line-height);
+    font-size: var(--fs-m);
+    color: var(--clr-light-dark-text);
+}
+.client-card-wrapper {
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 3rem;
+}
+/* End of Recent Product */
+/* WtooTijay */
+.watooTijay-wrapper {
+    --_bg-clr: #504946;
+    height: 32rem;
+    background-image: url('images/Background/WatooTijay.jpeg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.watooTijay-wrapper::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(255, 0, 0, 0.315);
+    mix-blend-mode: overlay;
+}
+.inner-watooTijay-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 1rem;
+}
+.inner-watooTijay-wrapper > :is(.eye-brow) {
+    color: var(--clr-white-100);
+}
+.text.white-text-clr {
+    color: var(--clr-white-100);
+}
+.big.content-title .text {
+    --_line-height: 74px;
+    line-height: var(--_line-height);
+    font-size: clamp(24px, 8vw, 56px);
+}
+/* Testimonial */
+.client-testimonial-container-wrapper {
+    padding-inline: 1rem;
+}
+.client-testimonial-container-wrapper > .content-header .text {
+    line-height: 1.5;
+    font-size: 32px;
+    font-weight: var(--fw-700);
+}
+/* Scrol is here */
+.client-testimonial-card-continer {
+    padding-inline: .5rem;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(34rem, 1fr));
+    overflow-x: hidden;
+    gap: 2rem;
+}
+/* End of tech talk */
+
+/* Tech talk section */
+.tech-talk-container-wrapper {
+    background-color: var(--clr-dark-red);
+    padding-block: 5rem 3rem;
+    padding-inline: var(--mobile-full-width-padding-inline);
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.tech-talk-container-wrapper {
+    background-image: url('../../../images/Background/bg-wave.png');
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-size: 70%;
+}
+
+.tech-talk-container-wrapper::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #861306ce;
+    z-index: 1;
+}
+.blog-cards-wrapper,
+.tech-talk-inner-wrapper > .content-header {
+    z-index: 3;
+}
+.tech-talk-inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 100%;
+    margin-inline: 0;
+}
+.tech-talk-inner-wrapper > :is(.content-header) {
+    width: min(100%, 55rem);
+}
+.white-text-clr.eye-brow {
+    color: var(--clr-white-100);
+}
+.blog-cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1rem;
+}
+.blog-tag-wrapper {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+/* End of Tech talk section */
+
+
+.think-big-wrapper {
+    padding-top: 8rem;
+}
+/* .think-big-text-wrapper {
+    background-image: url('images/Background/bg-wave.png');
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-size: 90%;
+    position: relative;
+} */
+/* 
+.think-big-text-wrapper::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #861306ce;
+    z-index: 1;
+} */
+.think-big-inner-wrapper {
+    background-color: var(--clr-dark-red);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* Added */
+}
+.thing-big-image {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 16 / 4 ;
+}
+.think-big-text-wrapper {
+    margin-block: 3rem;
+    padding: 1rem;
+}
+.think-big-text-inner {
+    padding-inline: 3rem;
+}
+.think-big-text {
+    color: var(--clr-white-100);
+    text-align: center;
+    font-size: clamp(32px, 2vw, 33px);
+    font-weight: 700;
+}
+
+
+@media only screen and (min-width: 688px) {
+    .tool-cards-grid-group {
+        justify-content: center;
+    }
+    /* Recent Product */
+    .client-card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+    /* Teach talk */
+    .tech-talk-inner-wrapper {
+        width: min(95%, 90rem);
+        margin-inline: auto;
+    }
+    .blog-cards-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        gap: 1rem;
+    }
+    .think-big-inner-wrapper {
+        width: min(95%, 90rem);
+        margin-inline: auto;
+    }
+    .think-big-text-wrapper {
+        padding-block: 5rem;
+    }
+    .think-big-text-inner {
+        padding-inline: 2rem;   
+    }
+    .think-big-text-wrapper {
+        margin-block: 0;
+    }
+    .think-big-text-wrapper {
+        background-size: 60%;
+    }
+    
+    /* Tesitmonial */
+        /* Scrol is here */
+    .client-testimonial-card-continer {
+        padding-inline: .5rem;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(37rem, 1fr));
+    }
+    /* Background-image trial */
+    .primary-header {
+        position: relative;
+        background-image: url('images/Background/bg-wave.png');
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-size: 90%;
+
+    }
+    .primary-header::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 2rem;
+        width: 100%;
+        height: 80%;
+        background-color: #861306ce;
+
+    }
+}
+
+
+/* Blogs Page  */
+
+
+.blogs-card-component-wrapper {
+    padding-block: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+}
+.blog-card.bg-clr {
+    background-color: #fff;
+}
+
+
+/* Team Page */
+.team-member-card-component-wrapper {
+    padding-block: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 2rem;
+    row-gap: 3rem;
+}
+
+
+/* Case Study  Page*/
+
+/* Client card -2 */
+.client-card-2-component {
+    padding-block: 3rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+}
