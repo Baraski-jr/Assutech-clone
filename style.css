@@ -149,7 +149,6 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
 .client-testimonial-container-wrapper {
     padding-inline: 1rem;
     padding-top: 5rem;
-    border: 2px solid blue;
 }
 .client-testimonial-container-wrapper > .content-header .text {
     line-height: 1.5;
