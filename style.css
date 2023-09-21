@@ -148,6 +148,8 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
 /* Testimonial */
 .client-testimonial-container-wrapper {
     padding-inline: 1rem;
+    padding-top: 5rem;
+    border: 2px solid blue;
 }
 .client-testimonial-container-wrapper > .content-header .text {
     line-height: 1.5;
@@ -158,7 +160,7 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
 .client-testimonial-card-continer {
     padding-inline: .5rem;
     display: grid;
-    grid-template-columns: repeat(4, minmax(34rem, 1fr));
+    grid-template-columns: repeat(4, minmax(30rem, 1fr));
     overflow-x: hidden;
     gap: 2rem;
 }
@@ -224,24 +226,6 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
 .think-big-wrapper {
     padding-top: 8rem;
 }
-/* .think-big-text-wrapper {
-    background-image: url('images/Background/bg-wave.png');
-    background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-size: 90%;
-    position: relative;
-} */
-/* 
-.think-big-text-wrapper::before {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #861306ce;
-    z-index: 1;
-} */
 .think-big-inner-wrapper {
     background-color: var(--clr-dark-red);
     display: flex;
