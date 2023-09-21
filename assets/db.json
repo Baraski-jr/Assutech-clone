@@ -21,37 +21,90 @@
             "image": "images/Team-members/hassan.jpg",
             "role": "SENIOR BACKEND ENGINEER",
             "degree": "B.Tech in Computer Science and Engineering",
-            "description": "Abass considers himself the sous chef of the backend team and is an avid fan of the TV show "Suits." He takes great pride in his sense of style and fashion. In addition to that, Abass is currently recognized as our most skilled FIFA player. Challenging him to a game is not without risk, as he is known to be highly proficient. May luck be on your side if you decide to take on the challenge." 
+            "description": "Abass considers himself the sous chef of the backend team and is an avid fan of the TV show 'Suits.' He takes great pride in his sense of style and fashion. In addition to that, Abass is currently recognized as our most skilled FIFA player. Challenging him to a game is not without risk, as he is known to be highly proficient. May luck be on your side if you decide to take on the challenge."
         },
         {
-            "name": "",
+            "name": "Ebrima Y Jallow",
             "image": "images/Team-members/hassan.jpg",
             "role": "MACHINE LEARNING & GROWTH LEAD",
             "degree": "BSc. Mathematics",
             "description": "Picture this: I'm all about teamwork and big-picture thinking. No micromanaging here – I trust your expertise. If things stray, count on me to navigate. I'll jump into details at the start and guide you if needed. Deadlines? I take 'em seriously. Data's my secret sauce, but I won't drown you in it. Challenge my gut feelings anytime. Customers' tales fuel me, especially on the go. Feedback's gold, and results are my jam. Laughter, ataya, books, and football, a must." 
         },
         {
-            "name": "",
+            "name": "Benteh Jallow",
             "image": "images/Team-members/hassan.jpg",
-            "role": "",
+            "role": "FRONTEND ENGINEER",
+            "degree": "",
+            "description": "Benteh is a retired arsenal fan 😉. He is deeply passionate about learning new ways to be the best version of himself. Benteh always has headphones on and most often than not, It is because he’s listening to his favourite podcast: Syntax fm." 
+        },
+        {
+            "name": "Waka Jeng",
+            "image": "images/Team-members/hassan.jpg",
+            "role": "LEAD FRONTEND ENGINEER",
+            "degree": "",
+            "description": "Waka is very passionate about Martial arts because of the discipline, Balance and Sense of Calm, it provides. He is a creative at heart and you know what they say about creatives, they easily get bored, which is why he’s intentional about challenges and taking adventures that push him outside of his comfort zone and stimulate his creativity. While Most people fear failure, Waka embraces it arms wide open because he believes there are lessons only failure can teach you." 
+        },
+        {
+            "name": "Abubacarr Ceesay",
+            "image": "images/Team-members/hassan.jpg",
+            "role": "BACKEND ENGINEER",
+            "degree": "",
+            "description": "Abubacarr loves to play football as a midfielder and has been supporting juventus for years now. He loves to read History because he is fascinated by past events and believes that there is Nothing New under the Sun which means there is always a lesson to be learned from the past. Wikipidea and Google are his friends because one thing about Abubakarr, He always wants to know the why and the how." 
+        },
+        {
+            "name": "Fatou A. Ceesay",
+            "image": "images/Team-members/hassan.jpg",
+            "role": "FRONTEND ENGINEER",
+            "degree": "BSc. Information Systems",
+            "description": "Fatou is a creative at heart. When she isn’t coding, you can find her getting her hands dirty in paint or dirt as she is also plant parent who sells plants. Fatou is very Intentional about spending time with family and friends as well as exploring and trying out new smoothie recipes with her Husband." 
+        },
+        {
+            "name": "Mohammed Sillah",
+            "image": "images/Team-members/hassan.jpg",
+            "role": "SECURITY ENGINEER",
+            "degree": "",
+            "description": "Mohammed is a Raymond Reddington Stan, He loves playing football and watching Anime/Netflix during his leisure time. He has been trying to hone his culinary skills. He also spends a lot of his time listening to audiobooks and his favorite podcast: Darknet diaries or playing his favorite video game: Assassins creed and FIFA" 
+        },
+        {
+            "name": "Edrisa Leigh",
+            "image": "images/Team-members/hassan.jpg",
+            "role": "FRONTEND ENGINEER",
+            "degree": "",
+            "description": "Edrisa is passionate about Combatting Climate change. When he isn’t coding, He’s volunteering with Clean earth Gambia to plant trees and save our environment, Saturdays are for books, podcasts or adventures." 
+        },
+        {
+            "name": "Ya Adam Njie",
+            "image": "images/Team-members/hassan.jpg",
+            "role": "MACHINE LEARNING ENGINEER",
+            "degree": "BSc. (Val) Computer Science and Mathematics",
+            "description": "When she isn’t busy being a valedictorian, you can find Ya Adam playing Sims 4, GTA 5 or Red dead Redemption 2. Her favourite Reality Tv show is the real housewives of potomac which she watches mainly because of karen hugo who she deeply resonates with. Going on a food tour around the world and seeing waterfalls are the two things on her bucket list." 
+        },
+        {
+            "name": "Amadou Tijan Jallow",
+            "image": "images/Team-members/hassan.jpg",
+            "role": "FRONTEND ENGINEER",
+            "degree": "BSc (Hons) Computer Science",
             "description": "" 
         },
         {
             "name": "",
             "image": "images/Team-members/hassan.jpg",
             "role": "",
+            "degree": "",
             "description": "" 
         },
         {
             "name": "",
             "image": "images/Team-members/hassan.jpg",
             "role": "",
+            "degree": "",
             "description": "" 
         },
         {
             "name": "",
             "image": "images/Team-members/hassan.jpg",
             "role": "",
+            "degree": "",
             "description": "" 
         }
     ]
