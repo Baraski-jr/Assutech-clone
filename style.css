@@ -159,7 +159,7 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
 .client-testimonial-card-continer {
     padding-inline: .5rem;
     display: grid;
-    grid-template-columns: repeat(4, minmax(30rem, 1fr));
+    grid-template-columns: repeat(4, minmax(20rem, 1fr));
     overflow-x: hidden;
     gap: 2rem;
 }
