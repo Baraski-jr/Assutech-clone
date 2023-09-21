@@ -28,7 +28,6 @@
     /* border: 2px solid blue; */
     background-color: var(--clr-dark-red);
 }
-
 .team-member-imgage {
     width: 100%;
     object-fit: cover;
