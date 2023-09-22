@@ -1,112 +1,368 @@
 {
-    "Blogs": [
+
+    "CaseStdies": [
         {
+            "name": "Marble Gambia",
+            "subName": "A Cross-Platform Election Information App",
+            "image": "../images/Studies/marblee.webp",
+            "url": "",
+            "tags": ["Election",
+                        "Election Results",
+                        "Gambia Participate",
+                        "Marble",
+                        "Election Information"
+                    ]
+        },
+        {
+            "name": "WunderPen",
+            "subName": "Artistry of handwritting with the precision of technology",
+            "image": "../images/Studies/wunderpen.png",
+            "url": "",
+            "tags": [" Web App ",
+                        "Rendering Engine",
+                        "Non-OTF Fonts",
+                        "TTF Fonts"
+                    ]
+        },
+        {
+            "name": "Logix",
+            "subName": "A Fuel Coupon Management Software",
+            "image": "../images/Studies/logix.png",
+            "url": "",
+            "tags": ["Web App",
+                        "Fuel Coupon",
+                        "Finance",
+                        "2FA"
+                    ]
+        },
+        {
+            "name": "Wahjef",
+            "subName": "WahJef - An Accountability Platform",
+            "image": "../images/Studies/wahjef.svg",
+            "url": "",
+            "tags": ["Election",
+                        "Parliament",
+                        "Electorates",
+                        "Bills & Acts"
+                    ]
+        },
+        {
+            "name": "Senekart",
+            "subName": "Senekart - Multi Vendor eCommerce Platform",
+            "image": "../images/Studies/senekart.svg",
+            "url": "",
+            "tags": ["eCommerce",
+                        "Multi-Vendor",
+                        "Web App"
+                    ]
+        },
+        {
+            "name": "AfriMoney",
+            "subName": "Solidifying AfriMoney's position as a leading force in the mobile money landscape",
+            "image": "../images/Studies/africel.png",
+            "url": "",
+            "tags": ["Growth Hackging",
+                        "Data Analytics",
+                        "Paid Ads",
+                        "Social Media Analytics"
+                    ]
+        },
+        {
+            "name": "GCCI ISRT",
+            "subName": "Inter State Road Transit",
+            "image": "../images/Studies/ISRT.jpg",
+            "url": "",
+            "tags": ["Transportation",
+                        "Trade",
+                        "Web App",
+                        "GCCI"
+                    ]
+        },
+        {
+            "name": "GCCI COO",
+            "subName": "GCCCI Certificate of Origin Software - Establishing the origin of goods",
+            "image": "../images/Studies/gcci.png",
+            "url": "",
+            "tags": ["Business Automation",
+                        "Accountability",
+                        "Bespoke Software",
+                        "Shipping",
+                        "Transportation"
+                    ]
         }
     ],
+
     "FeedBacks": [
         {
+            "name": "Alieu Secka",
+            "image": "images/Alieu-secka.jpg",
+            "company": "CEO | Gambia Chamber of Commerce and Industry",
+            "feedbackQuote": "As one of the pioneer clients, the GCCI have been quite impressed with the standard of work produced by Assutech which compares to any worldwide. We congratulate the team and trust it will continue to develop great applications."
+        },
+        {
+            "name": "Kate Roze",
+            "image": "images/kate_roze.jpeg",
+            "company": "Director of Mobile Money | Africell Group ",
+            "feedbackQuote": "Assutech and Afrimoney’s collaboration over the past two years has been exceptional. Assutech’s digital marketing expertise has significantly amplified Afrimoney’s visibility. Through this partnership, we’ve effectively reached diverse demographics and engaged with the diaspora, resulting in increased engagement and adoption. Assutech’s commitment to providing round-the-clock service and employing data-driven marketing strategies has played a vital role in building awareness and fostering interest in mobile money solutions in The Gambia. Their team’s availability, patience, and adaptability have been instrumental in our remarkable journey together."
+        },
+        {
+            "name": "David Asabina",
+            "image": "images/asabina.jpeg",
+            "company": "Founder | Asabina.de",
+            "feedbackQuote": " Assutech has unblocked me plenty of times. I'm fairly technical myself but their devs own me in many regards which is why it's always fun to work together with them. They're fast, direct, and cut cleaner code than I can personally cook up even on my best days. They're like the software engineering A-team that I'll definitely keep on speed dial."
+        },
+        {
+            "name": "Peter Lecour",
+            "image": "images/peter.jpeg",
+            "company": "Founder & Managing Director | Wunderpen",
+            "feedbackQuote": "We chose Assutech as our partner for digitalizing some of our most significant internal and external business processes. Thanks to their wide skillset, mindful approach and their professionalism as well as grasp of our problems, it was a great joy to co-operate with the team in our first successful offshore project. They have also helped us to learn a lot about defining our future software strategy, with hopefully more collaborative projects to come soon."
         }
     ],
     "TeamMembers": [
         {
 
             "name": "Hassan Y. Jallow",
-            "image": "images/Team-members/hassan.jpg",
+            "image": "../images/Team-members/hassan.jpg",
             "role": "CEO",
             "degree": "",
             "description": "If Passion were a person, It would be Hassan. He makes you want to do and be better at your craft just by being in the Room. When He isn't working, He’s checking things off on his “Ten things to explore” List which includes learning to fly planes. Did you know that Hassan has a 2nd degree black belt in taekwando? Taekwando gives him a sense of balance, Calm and most importantly teaches him discipline. Where most person learn to swim in a pool, He learnt at Sea 😉. Talk about making waves. Extraordinary stuff Right? That’s hassan for you." 
         },
         {
             "name": "Saidy Barry",
-            "image": "images/Team-members/hassan.jpg",
+            "image": "../images/Team-members/saidy-barry.webp",
             "role": "SENIOR BACKEND ENGINEER",
             "degree": "B.Tech in Computer Science and Engineering",
             "description": "Abass considers himself the sous chef of the backend team and is an avid fan of the TV show 'Suits.' He takes great pride in his sense of style and fashion. In addition to that, Abass is currently recognized as our most skilled FIFA player. Challenging him to a game is not without risk, as he is known to be highly proficient. May luck be on your side if you decide to take on the challenge."
         },
         {
             "name": "Ebrima Y Jallow",
-            "image": "images/Team-members/hassan.jpg",
+            "image": "../images/Team-members/ebrima.jpg",
             "role": "MACHINE LEARNING & GROWTH LEAD",
             "degree": "BSc. Mathematics",
             "description": "Picture this: I'm all about teamwork and big-picture thinking. No micromanaging here – I trust your expertise. If things stray, count on me to navigate. I'll jump into details at the start and guide you if needed. Deadlines? I take 'em seriously. Data's my secret sauce, but I won't drown you in it. Challenge my gut feelings anytime. Customers' tales fuel me, especially on the go. Feedback's gold, and results are my jam. Laughter, ataya, books, and football, a must." 
         },
         {
             "name": "Benteh Jallow",
-            "image": "images/Team-members/hassan.jpg",
+            "image": "../images/Team-members/benteh.jpg",
             "role": "FRONTEND ENGINEER",
             "degree": "",
             "description": "Benteh is a retired arsenal fan 😉. He is deeply passionate about learning new ways to be the best version of himself. Benteh always has headphones on and most often than not, It is because he’s listening to his favourite podcast: Syntax fm." 
         },
         {
             "name": "Waka Jeng",
-            "image": "images/Team-members/hassan.jpg",
+            "image": "../images/Team-members/waka.jpg",
             "role": "LEAD FRONTEND ENGINEER",
             "degree": "",
             "description": "Waka is very passionate about Martial arts because of the discipline, Balance and Sense of Calm, it provides. He is a creative at heart and you know what they say about creatives, they easily get bored, which is why he’s intentional about challenges and taking adventures that push him outside of his comfort zone and stimulate his creativity. While Most people fear failure, Waka embraces it arms wide open because he believes there are lessons only failure can teach you." 
         },
         {
             "name": "Abubacarr Ceesay",
-            "image": "images/Team-members/hassan.jpg",
+            "image": "../images/Team-members/abubacarr.jpg",
             "role": "BACKEND ENGINEER",
             "degree": "",
             "description": "Abubacarr loves to play football as a midfielder and has been supporting juventus for years now. He loves to read History because he is fascinated by past events and believes that there is Nothing New under the Sun which means there is always a lesson to be learned from the past. Wikipidea and Google are his friends because one thing about Abubakarr, He always wants to know the why and the how." 
         },
         {
             "name": "Fatou A. Ceesay",
-            "image": "images/Team-members/hassan.jpg",
+            "image": "../images/Team-members/tima.jpg",
             "role": "FRONTEND ENGINEER",
             "degree": "BSc. Information Systems",
             "description": "Fatou is a creative at heart. When she isn’t coding, you can find her getting her hands dirty in paint or dirt as she is also plant parent who sells plants. Fatou is very Intentional about spending time with family and friends as well as exploring and trying out new smoothie recipes with her Husband." 
         },
         {
             "name": "Mohammed Sillah",
-            "image": "images/Team-members/hassan.jpg",
+            "image": "../images/Team-members/mohamed.jpg",
             "role": "SECURITY ENGINEER",
             "degree": "",
             "description": "Mohammed is a Raymond Reddington Stan, He loves playing football and watching Anime/Netflix during his leisure time. He has been trying to hone his culinary skills. He also spends a lot of his time listening to audiobooks and his favorite podcast: Darknet diaries or playing his favorite video game: Assassins creed and FIFA" 
         },
         {
             "name": "Edrisa Leigh",
-            "image": "images/Team-members/hassan.jpg",
+            "image": "../images/Team-members/A32.jpg",
             "role": "FRONTEND ENGINEER",
             "degree": "",
             "description": "Edrisa is passionate about Combatting Climate change. When he isn’t coding, He’s volunteering with Clean earth Gambia to plant trees and save our environment, Saturdays are for books, podcasts or adventures." 
         },
         {
             "name": "Ya Adam Njie",
-            "image": "images/Team-members/hassan.jpg",
+            "image": "../images/Team-members/Adam.webp",
             "role": "MACHINE LEARNING ENGINEER",
             "degree": "BSc. (Val) Computer Science and Mathematics",
             "description": "When she isn’t busy being a valedictorian, you can find Ya Adam playing Sims 4, GTA 5 or Red dead Redemption 2. Her favourite Reality Tv show is the real housewives of potomac which she watches mainly because of karen hugo who she deeply resonates with. Going on a food tour around the world and seeing waterfalls are the two things on her bucket list." 
         },
         {
             "name": "Amadou Tijan Jallow",
-            "image": "images/Team-members/hassan.jpg",
+            "image": "../images/Team-members/Tijan.webp",
             "role": "FRONTEND ENGINEER",
             "degree": "BSc (Hons) Computer Science",
-            "description": "" 
+            "description": "Tijan is an anime fan through and through and the reason is simple, He loves how Anime captures and portrays emotions. Demon Slayer and Jujitsu kaisen are some of his favourites but naruto will always be his go to Anime. His favourite characters are Kakashi and goj. Messi will always be his all time favorite football player. Tijan is clearly a Man of culture." 
         },
         {
-            "name": "",
-            "image": "images/Team-members/hassan.jpg",
-            "role": "",
+            "name": "Lamin Suwareh",
+            "image": "../images/Team-members/lamin.webp",
+            "role": "BACKEND ENGINEER",
             "degree": "",
-            "description": "" 
+            "description": "Lamin likes to take long walks. Watching Football and brewing attaya gives him joy. Lamin is always trying to educate himself on a wide range of topics which is why you’ll always find him in the pages of books." 
         },
         {
-            "name": "",
-            "image": "images/Team-members/hassan.jpg",
-            "role": "",
+            "name": "Jamba Ceesay",
+            "image": "../images/Team-members/Jamba.webp",
+            "role": "BACKEND ENGINEER",
             "degree": "",
-            "description": "" 
+            "description": "You have a problem that needs solving? Jamba is your go to guy. Apart from tech, if there are two things that give him joy, it is Food and Anime. His favorite meal is anything that has chicken in it. Playing Fifa and call of duty is how Jamba regroups at the office." 
         },
         {
-            "name": "",
-            "image": "images/Team-members/hassan.jpg",
-            "role": "",
+            "name": "Ebrima Dubois",
+            "image": "../images/Team-members/dubois.jpg",
+            "role": "MANAGEMENT",
             "degree": "",
-            "description": "" 
+            "description": "Ebrima is an Arsenal fan and the football player he resonates with the most is Xhaka. He also swims for fun and spends most of his down time watching Brother shaggy ( Comedian). Ebrima likes to play football during the weekends as well." 
+        },
+        {
+            "name": "Aysha Cham",
+            "image": "../images/Team-members/aysha.jpg",
+            "role": "FRONTEND ENGINEER",
+            "degree": "",
+            "description": "While Aysha has a lot going on with school and work, She is deeply intentional about creating space for a work/life balance by making time for the things she enjoys. One of those things is Anime and this is simply because she believes nothing else comes close to capturing Storytelling like Anime does. Aysha is grateful for the Community and support she gets from her circle of friends." 
         }
-    ]
-    
+    ],
+
+    "Blogs": {    
+        "Cards": [
+            {
+                "title": "Flutter: Unleashing the Power of Modern App Development",
+                "image": "../images/Blogs/blog-1.webp",
+                "bloggerName": "Jamba Ceesay",
+                "postedDate": "June 02, 2023",
+                "role": "Backend Engineer, Assutech",
+                "url": "",
+                "tags": ["Flutter",
+                            "Web App",
+                            "Mobile App",
+                            "Flexible",
+                            "Secure"
+                        ]
+            },
+            {
+                "title": "Mastering Your Go-To-Market Strategy: A Comprehensive Guide for Startups",
+                "image": "../images/Blogs/blog-2.webp",
+                "bloggerName": "Ebrima Y. Jallow",
+                "postedDate": "May 10, 2023",
+                "role": "Growth Lead, Assutech",
+                "url": "",
+                "tags": [ "Startups",
+                            "Go-To-Market Strategy",
+                            "MVP"
+                ]
+            },
+            {
+                "title": "Tackling The Gambia's Healthcare Challenges with Innovative Machine Learning Solutions",
+                "image": "../images/Blogs/blog-2.webp",
+                "bloggerName": "Ebrima Y. Jallow",
+                "postedDate": "April 06, 2023",
+                "role": "Growth Lead, Assutech",
+                "url": "",
+                "tags": ["Machine Learning",
+                            "Healthcare",
+                            "Artificial Intelligence"
+                ]
+            },
+            {
+                "title": "Top 6 Advantags of outsourcing software development to The Gambia",
+                "image": "../images/Blogs/blog-2.webp",
+                "bloggerName": "Ebrima Y. Jallow",
+                "postedDate": "February 07, 2023",
+                "role": "Growth Lead, Assutech",
+                "url": "",
+                "tags": ["Software Development",
+                            "Outsourcing",
+                            "Tech Hub"
+                ]
+            },
+            {
+                "title": "Streamline Your Business Payments with Waychit: The Ultimate Payment Aggregator for Business Owners",
+                "image": "../images/Blogs/blog-2.webp",
+                "bloggerName": "Ebrima Y Jallow",
+                "postedDate": "January 31, 2023",
+                "role": "Growth Lead, Assutech",
+                "url": "",
+                "tags": ["Mobile Payment",
+                            "Payment Aggregator",
+                            "Fintech"
+                ]
+            },
+            {
+                "title": "Waychit: A Game Changer in the Fuel Purchasing Experience",
+                "image": "../images/Blogs/blog-2.webp",
+                "bloggerName": "Ebrima Y Jallow",
+                "postedDate": "January 30, 2023",
+                "role": "Growth Lead, Assutech",
+                "url": "",
+                "tags": ["Waychit",
+                            "Mobile Payments",
+                            "Fuel Payment",
+                            "Cashless Payment"
+                ]
+            },
+            {
+                "title": "Thinking Modes - An Approach to Problem Solving",
+                "image": "../images/Blogs/blog-2.webp",
+                "bloggerName": "Ebrima Y Jallow",
+                "postedDate": "January 06, 2023",
+                "role": "Growth Lead, Assutech",
+                "url": "",
+                "tags": ["Problem-solving",
+                            "Decision-making",
+                            "Critical Thinking",
+                            "Creative Thinking"
+                ]
+            },
+            {
+                "title": "Unlocking Explosive Business Growth with Flywheels: A Proven Product-Led Strategy",
+                "image": "../images/Blogs/blog-2.webp",
+                "bloggerName": "Ebrima Y Jallow",
+                "postedDate": "December 09, 2022",
+                "role": "Growth Lead, Assutech",
+                "url": "",
+                "tags": ["Product-led Growth",
+                            "Growth Hacking",
+                            "Funnels",
+                            "Flywheels"
+                ]
+            },
+            {
+                "title": "Output and Outcome: Why you're not performing as much as you'd like!",
+                "image": "../images/Blogs/blog-2.webp",
+                "bloggerName": " Abass S. Barry",
+                "postedDate": "November 19, 2021",
+                "role": "Senior Backend Engineer, Assutech",
+                "url": "",
+                "tags": ["Productivity",
+                            "Time Management"
+                ]
+            },
+            {
+                "title": "Tech Space in The Gambia: A Retropective",
+                "image": "../images/Blogs/blog-2.webp",
+                "bloggerName": "Hassan Y. Jallow",
+                "postedDate": "November 18, 2021",
+                "role": "CEO | Chief Software Architect, Assutech",
+                "url": "",
+                "tags": ["Company Building",
+                            "Leadership"
+                ]
+            },
+            {
+                "title": "How to setup Dark Mode in React Native using Expo",
+                "image": "../images/Blogs/blog-2.webp",
+                "bloggerName": "Benteh Jallow",
+                "postedDate": "",
+                "role": "Frontend Engineer, Assutech",
+                "url": "November 04, 2021",
+                "tags": ["React Native",
+                            "Javascript"
+                ]
+            }
+        ]
+    }
 }
