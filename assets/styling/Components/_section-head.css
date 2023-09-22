@@ -1,4 +1,4 @@
-@import url('assets/styling/utitlities/variable.css');
+@import url('../utitlities/variable.css');
 :root {
     --eye-brow-text--clr: #861206;
     --_fs-xl: 25px;

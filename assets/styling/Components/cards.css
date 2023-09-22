@@ -18,7 +18,6 @@
     --_fs-ml: 20px;
     --_fs-l: 26px;
 }
-
 /* GET IN TOUCH RIGHT FIX */
 .intouch-fix {
     /* border: 2px solid blue; */
@@ -32,8 +31,8 @@
     right: -4rem;
     top: 50%;
     transform: rotate(-90deg);
+    z-index: 10;
 }
-
 /* Team member Card */
 .hide {
     display: none;
@@ -42,7 +41,7 @@
     /* border: 2px solid blue; */
     background-color: var(--clr-dark-red);
 }
-.team-member-imgage {
+.team-member-image {
     width: 100%;
     object-fit: cover;
 }
@@ -51,7 +50,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 1.5rem;
-    padding-block: 1rem;
+    padding-block: 2%;
     color: var(--clr-white-100);
     text-align: center;
     background-image: url('../../../images/Background/nav-bg-wave.png');
@@ -206,7 +205,6 @@
     padding: 2.5rem 2rem;
     width: min(100%, 30rem);
     margin-inline: auto;
-    /* border: 2px solid blue; */
 }
 .client-card-1-detail {
     display: flex;
@@ -291,7 +289,7 @@
 .blog-image {
     width: 100%;
     object-fit: cover;
-    aspect-ratio: 3 / 1.5;
+    aspect-ratio: 3 / 1.2;
 }
 .blog-details {
     display: flex;
@@ -393,6 +391,11 @@
     .tool-text {
         text-align: center;
     }
+    /* Case Study Card */
+    .case-study-card-image {
+        max-width: 90%;
+        margin-inline: auto;
+    }
 }
 
 
@@ -439,7 +442,7 @@
     .team-member-card {
         position: relative;
     }
-    .team-member-imgage {
+    .team-member-image {
         height: 100%;
     }
     .team-member-details {
@@ -455,6 +458,11 @@
     }
     .team-member-details:hover {
         opacity: 1;
+    }
+    /* Case Study Card */
+    .case-study-card-image {
+        max-width: 100%;
+        margin-inline: auto;
     }
     /*  */
 }

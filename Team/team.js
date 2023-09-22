@@ -10,7 +10,7 @@ async function getTeamMembers() {
     Template += `
               <figure class="team-member-card">
               <div class="close-toggle abs"></div>
-              <img class="team-member-imgage" src="${data.TeamMembers[i].image}" alt="${data.TeamMembers[i].name}">
+              <img class="team-member-image" src="${data.TeamMembers[i].image}" alt="${data.TeamMembers[i].name}">
               <figcaption class="team-member-details">
                   <h2 class="member-name">${data.TeamMembers[i].name}</h2>
                   <p class="member-position">${data.TeamMembers[i].role}</p>

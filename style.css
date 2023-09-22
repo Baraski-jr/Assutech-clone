@@ -2,10 +2,9 @@
 @import url('assets/styling/Components/footer.css');
 @import url('assets/styling/Components/cards.css');
 @import url('assets/styling/Components/buttons.css');
-@import url('assets/styling/utitlities/rest.css');
-@import url('assets/styling/utitlities/variable.css');
 @import url('assets/styling/Components/_section-head.css');
 @import url('assets/styling/Components/hero_landing.css');
+@import url('assets/styling/utitlities/variable.css');
 
 
 /* Common styling for both Custom & Client fedback wrapper */
@@ -143,7 +142,7 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
 /* Testimonial */
 .client-testimonial-container-wrapper {
     padding-inline: 1rem;
-    padding-top: 5rem;
+    padding-block: 5rem;
 }
 .client-testimonial-container-wrapper > .content-header .text {
     line-height: 1.5;
@@ -245,6 +244,40 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
     font-size: clamp(32px, 2vw, 33px);
     font-weight: 700;
 }
+
+/* Case Study  Page*/
+.case-study-card-container-wrapper {
+    padding-block: 5rem;
+}
+/* Client card -2 */
+.client-card-2-component {
+    padding-block: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+}
+
+/* Blogs Page  Styling */
+.blogs-card-component-wrapper {
+    padding-block: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1rem;
+    /* border: 2px solid red; */
+}
+.blog-card.bg-clr {
+    background-color: #fff;
+}
+
+/* Team Page */
+.team-member-card-component-wrapper {
+    padding-block: 3rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 2rem;
+    row-gap: 3rem;
+}
+
 /* Lager smartphone and tablets */
 @media only screen and (min-width: 586px) and (max-width: 767px) {
     /* Costum solution */
@@ -254,12 +287,33 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
     .client-card-wrapper {
         grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     }
+    /* Blogs Page  */
+    .blogs-card-component-wrapper {
+        width: min(95%, 90rem);
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    }
+    /* Team Page */
+    /* Full screen divider */
+    .main-tech-talk-container.full-width-split-sub-hero {
+        width: min(90%, 90rem);
+    }
+    .team-member-card-component-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    }
     body { border: 2px solid blue; }
 }
 
 /* Styles for medium screens (MD) */
 @media (min-width: 768px) and (max-width: 991px) {    
     body {border: 2px solid green;}
+    
+    /* Blogs Page  */
+    .blogs-card-component-wrapper {
+        width: min(90%, 90rem);
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        border: 2px solid red;
+    }
+    /* Tools Use */
     .tool-cards-grid-group {
         display: flex;
         flex-wrap: wrap;
@@ -267,8 +321,10 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
         gap: 1rem;
     }
     /* Full screen divider */
+    .main-tech-talk-container.full-width-split-sub-hero,
     .inner-watooTijay-wrapper.full-width-split,
-    .recent-wrapper {
+    .recent-wrapper
+     {
         width: min(80%, 80rem);
     }
     .recent-wrapper {
@@ -278,9 +334,25 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
         gap: 1rem;
     }
 }
+
+
 /* Styles for large screens (LG) */
 @media (min-width: 992px) {
     /* CSS rules for standard desktop screens */
+    
+    /* Client card -2 */
+    .client-card-2-component {
+        grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    }
+
+    /* Full screen divider */
+    .main-tech-talk-container.full-width-split-sub-hero{
+        width: min(90%, 90rem);
+    }
+    /* Team Page Css */
+    .team-member-card-component-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    }
     /* Full screen divider */
     .inner-watooTijay-wrapper.full-width-split,
     .recent-wrapper {
@@ -297,7 +369,13 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
    
     body {border: 2px solid orange;}
 
+    /* Blogs Page  */
+    .blogs-card-component-wrapper {
+        width: min(90%, 90rem);
+        grid-template-columns: repeat(auto-fit, minmax(21.8rem, 1fr));
+    }
    
+    /* Tools Use */
     .tool-cards-grid-group {
         display: flex;
         flex-wrap: wrap;
@@ -366,38 +444,24 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
     }
 }
 
+/* i'm using it to break down the team member container so it can contain the same number of card as the oficial page on the medium screen before extra large */
+/* Styles for large screens (LG) */
+@media (min-width: 992px) and (max-width: 1299px) {
+    /* Full screen divider */
+    .main-tech-talk-container.full-width-split-sub-hero{
+        width: min(90%, 90rem);
+    }
+    /* Team Page Css */
+    .team-member-card-component-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    }
 
-/* Blogs Page  */
-
-
-.blogs-card-component-wrapper {
-    padding-block: 3rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    gap: 1rem;
-}
-.blog-card.bg-clr {
-    background-color: #fff;
-}
-
-
-/* Team Page */
-.team-member-card-component-wrapper {
-    padding-block: 3rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-    gap: 2rem;
-    row-gap: 3rem;
-}
-
-
-/* Case Study  Page*/
-
-/* Client card -2 */
-.client-card-2-component {
-    padding-block: 3rem;
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    gap: 1rem;
+    /* Client card -2 */
+    .client-card-2-component {
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    }
+    
+    body {
+        border: 2px solid red;
+    }
 }

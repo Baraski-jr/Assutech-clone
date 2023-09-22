@@ -1,10 +1,10 @@
 @import url('../utitlities/variable.css');
 
-
 .full-width-split-sub-hero {
     width: min(75%, 90rem);
     margin-inline: auto;
 }
+/* Case Studies */
 /* BLOG PAGE */
 .sub-hero {
     min-height: 30vh;
@@ -20,7 +20,7 @@
     position: relative;
 }
 .study.sub-hero-primary-title {
-    font-size: clamp(25px, 3vw, 56px);
+    font-size: clamp(25px, 5vw, 56px);
 }
 .sub-hero > .main-text-content {
     gap: 1rem;
