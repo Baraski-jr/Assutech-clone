@@ -95,25 +95,25 @@
     "FeedBacks": [
         {
             "name": "Alieu Secka",
-            "image": "images/Alieu-secka.jpg",
+            "image": "images/Clients/Alieu-secka.jpg",
             "company": "CEO | Gambia Chamber of Commerce and Industry",
             "feedbackQuote": "As one of the pioneer clients, the GCCI have been quite impressed with the standard of work produced by Assutech which compares to any worldwide. We congratulate the team and trust it will continue to develop great applications."
         },
         {
             "name": "Kate Roze",
-            "image": "images/kate_roze.jpeg",
+            "image": "images/Clients/kate_roze.jpeg",
             "company": "Director of Mobile Money | Africell Group ",
             "feedbackQuote": "Assutech and Afrimoney’s collaboration over the past two years has been exceptional. Assutech’s digital marketing expertise has significantly amplified Afrimoney’s visibility. Through this partnership, we’ve effectively reached diverse demographics and engaged with the diaspora, resulting in increased engagement and adoption. Assutech’s commitment to providing round-the-clock service and employing data-driven marketing strategies has played a vital role in building awareness and fostering interest in mobile money solutions in The Gambia. Their team’s availability, patience, and adaptability have been instrumental in our remarkable journey together."
         },
         {
             "name": "David Asabina",
-            "image": "images/asabina.jpeg",
+            "image": "images/Clients/asabina.jpeg",
             "company": "Founder | Asabina.de",
             "feedbackQuote": " Assutech has unblocked me plenty of times. I'm fairly technical myself but their devs own me in many regards which is why it's always fun to work together with them. They're fast, direct, and cut cleaner code than I can personally cook up even on my best days. They're like the software engineering A-team that I'll definitely keep on speed dial."
         },
         {
             "name": "Peter Lecour",
-            "image": "images/peter.jpeg",
+            "image": "images/Clients/peter.jpeg",
             "company": "Founder & Managing Director | Wunderpen",
             "feedbackQuote": "We chose Assutech as our partner for digitalizing some of our most significant internal and external business processes. Thanks to their wide skillset, mindful approach and their professionalism as well as grasp of our problems, it was a great joy to co-operate with the team in our first successful offshore project. They have also helped us to learn a lot about defining our future software strategy, with hopefully more collaborative projects to come soon."
         }
@@ -231,7 +231,7 @@
         "Cards": [
             {
                 "title": "Flutter: Unleashing the Power of Modern App Development",
-                "image": "../images/Blogs/blog-1.webp",
+                "image": "images/Blogs/blog-post/post-1.webp",
                 "bloggerName": "Jamba Ceesay",
                 "postedDate": "June 02, 2023",
                 "role": "Backend Engineer, Assutech",
@@ -245,7 +245,7 @@
             },
             {
                 "title": "Mastering Your Go-To-Market Strategy: A Comprehensive Guide for Startups",
-                "image": "../images/Blogs/blog-2.webp",
+                "image": "images/Blogs/blog-post/post-2.webp",
                 "bloggerName": "Ebrima Y. Jallow",
                 "postedDate": "May 10, 2023",
                 "role": "Growth Lead, Assutech",
@@ -257,7 +257,7 @@
             },
             {
                 "title": "Tackling The Gambia's Healthcare Challenges with Innovative Machine Learning Solutions",
-                "image": "../images/Blogs/blog-2.webp",
+                "image": "images/Blogs/blog-post/post-3.webp",
                 "bloggerName": "Ebrima Y. Jallow",
                 "postedDate": "April 06, 2023",
                 "role": "Growth Lead, Assutech",
@@ -269,7 +269,7 @@
             },
             {
                 "title": "Top 6 Advantags of outsourcing software development to The Gambia",
-                "image": "../images/Blogs/blog-2.webp",
+                "image": "images/Blogs/blog-post/post-4.webp",
                 "bloggerName": "Ebrima Y. Jallow",
                 "postedDate": "February 07, 2023",
                 "role": "Growth Lead, Assutech",
@@ -281,7 +281,7 @@
             },
             {
                 "title": "Streamline Your Business Payments with Waychit: The Ultimate Payment Aggregator for Business Owners",
-                "image": "../images/Blogs/blog-2.webp",
+                "image": "images/Blogs/blog-post/post-5.webp",
                 "bloggerName": "Ebrima Y Jallow",
                 "postedDate": "January 31, 2023",
                 "role": "Growth Lead, Assutech",
@@ -293,7 +293,7 @@
             },
             {
                 "title": "Waychit: A Game Changer in the Fuel Purchasing Experience",
-                "image": "../images/Blogs/blog-2.webp",
+                "image": "images/Blogs/blog-post/post-6.webp",
                 "bloggerName": "Ebrima Y Jallow",
                 "postedDate": "January 30, 2023",
                 "role": "Growth Lead, Assutech",
@@ -306,7 +306,7 @@
             },
             {
                 "title": "Thinking Modes - An Approach to Problem Solving",
-                "image": "../images/Blogs/blog-2.webp",
+                "image": "images/Blogs/blog-post/post-7.webp",
                 "bloggerName": "Ebrima Y Jallow",
                 "postedDate": "January 06, 2023",
                 "role": "Growth Lead, Assutech",
@@ -319,7 +319,7 @@
             },
             {
                 "title": "Unlocking Explosive Business Growth with Flywheels: A Proven Product-Led Strategy",
-                "image": "../images/Blogs/blog-2.webp",
+                "image": "images/Blogs/blog-post/post-8.webp",
                 "bloggerName": "Ebrima Y Jallow",
                 "postedDate": "December 09, 2022",
                 "role": "Growth Lead, Assutech",
@@ -332,7 +332,7 @@
             },
             {
                 "title": "Output and Outcome: Why you're not performing as much as you'd like!",
-                "image": "../images/Blogs/blog-2.webp",
+                "image": "images/Blogs/blog-post/post-9.webp",
                 "bloggerName": " Abass S. Barry",
                 "postedDate": "November 19, 2021",
                 "role": "Senior Backend Engineer, Assutech",
@@ -343,7 +343,7 @@
             },
             {
                 "title": "Tech Space in The Gambia: A Retropective",
-                "image": "../images/Blogs/blog-2.webp",
+                "image": "images/Blogs/blog-post/post-10.webp",
                 "bloggerName": "Hassan Y. Jallow",
                 "postedDate": "November 18, 2021",
                 "role": "CEO | Chief Software Architect, Assutech",
@@ -354,7 +354,7 @@
             },
             {
                 "title": "How to setup Dark Mode in React Native using Expo",
-                "image": "../images/Blogs/blog-2.webp",
+                "image": "images/Blogs/blog-post/post-11.webp",
                 "bloggerName": "Benteh Jallow",
                 "postedDate": "",
                 "role": "Frontend Engineer, Assutech",

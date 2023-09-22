@@ -19,7 +19,7 @@ async function getBlog() {
     Template += `
         <figure class="blog-card bg-clr">
             <a href="${data.Blogs.Cards[i].url}" class="block">
-                <img class="blog-image" src="${data.Blogs.Cards[i].image}" alt="da">
+                <img class="blog-image" src="../${data.Blogs.Cards[i].image}" alt="da">
             </a>
             <figcaption class="blog-details">
                 <ul class="blog-tag-wrapper">

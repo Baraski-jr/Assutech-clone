@@ -1,7 +1,7 @@
 @import url('assets/styling/utitlities/variable.css');
 :root {
     --eye-brow-text--clr: #861206;
-    --_fs-xl: 29px;
+    --_fs-xl: 25px;
     --_fs-xxl: 36px;
 
     --_bg-clr-recent-product: var(--clr-white-200);
@@ -23,7 +23,7 @@
     line-height: var(--_line-height);
     color: var(--text-clr);
     font-weight: var(--fw-700);
-    font-size: clamp(var(--_fs-xl), 6vw, var(--_fs-xxl));
+    font-size: clamp(var(--_fs-xl), 5vw, var(--_fs-xxl));
 }
 /* Specifies */
 /* Custom solutions we Provide */
@@ -31,8 +31,29 @@
 .client-testimonial-container-wrapper .header {
     width: min(100%, 40rem);
 }
-/* Large-screen */
-@media only screen and (min-width: 688px) {
+
+
+/* Lager smartphone and tablets */
+@media only screen and (min-width: 586px) and (max-width: 767px) {
+
+    body { border: 2px solid blue; }
+}
+
+/* Styles for medium screens (MD) */
+@media (min-width: 768px) and (max-width: 991px) {    
+    body {border: 2px solid green;}
+
+    /* Custom solutions we Provide */
+    .costum-solution-wrapper .content-header,
+    .client-testimonial-container-wrapper .content-header{
+        text-align: center;
+        margin-inline: auto;
+    }
+}
+/* Styles for large screens (LG) */
+@media (min-width: 992px) {
+    /* CSS rules for standard desktop screens */
+
     /* Specifies */
 
     /* Custom solutions we Provide */
