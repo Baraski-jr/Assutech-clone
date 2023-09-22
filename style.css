@@ -263,7 +263,6 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 1rem;
-    /* border: 2px solid red; */
 }
 .blog-card.bg-clr {
     background-color: #fff;
@@ -300,18 +299,15 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
     .team-member-card-component-wrapper {
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     }
-    body { border: 2px solid blue; }
 }
 
 /* Styles for medium screens (MD) */
 @media (min-width: 768px) and (max-width: 991px) {    
-    body {border: 2px solid green;}
     
     /* Blogs Page  */
     .blogs-card-component-wrapper {
         width: min(90%, 90rem);
         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-        border: 2px solid red;
     }
     /* Tools Use */
     .tool-cards-grid-group {
@@ -366,9 +362,6 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
         gap: 3rem;
 
     }
-   
-    body {border: 2px solid orange;}
-
     /* Blogs Page  */
     .blogs-card-component-wrapper {
         width: min(90%, 90rem);
@@ -459,9 +452,5 @@ body > :is(.client-testimonial-container-wrapper, .costum-solution-wrapper) {
     /* Client card -2 */
     .client-card-2-component {
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    }
-    
-    body {
-        border: 2px solid red;
     }
 }
